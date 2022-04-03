@@ -20,5 +20,5 @@ else
         
     done
 fi
-tar -cf $archive_name $dir_name # >/dev/null 2>/dev/null
+tar zcf $archive_name $dir_name # >/dev/null 2>/dev/null
 echo "done"
